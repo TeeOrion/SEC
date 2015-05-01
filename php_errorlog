@@ -1,0 +1,150 @@
+[10-Mar-2015 17:07:22 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/sonnyti4/public_html/login.php on line 27
+[10-Mar-2015 17:10:52 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/login.php on line 10
+[10-Mar-2015 17:11:03 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/login.php on line 4
+[10-Mar-2015 17:13:35 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/login.php on line 4
+[10-Mar-2015 17:14:07 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 110' in /home/sonnyti4/public_html/login.php:9
+Stack trace:
+#0 /home/sonnyti4/public_html/login.php(9): PDO->__construct('mysql:host=stud...', 'k1219285', 'Mofos123', Array)
+#1 {main}
+  thrown in /home/sonnyti4/public_html/login.php on line 9
+[10-Mar-2015 17:27:15 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'sonnyti4_1'@'localhost' to database 'db_k1219285'' in /home/sonnyti4/public_html/login.php:9
+Stack trace:
+#0 /home/sonnyti4/public_html/login.php(9): PDO->__construct('mysql:host=loca...', 'sonnyti4_1', 'Mofos123', Array)
+#1 {main}
+  thrown in /home/sonnyti4/public_html/login.php on line 9
+[10-Mar-2015 17:28:47 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'sonnyti4_1'@'localhost' to database 'db_k1219285'' in /home/sonnyti4/public_html/login.php:9
+Stack trace:
+#0 /home/sonnyti4/public_html/login.php(9): PDO->__construct('mysql:host=loca...', 'sonnyti4_1', 'Mofos123', Array)
+#1 {main}
+  thrown in /home/sonnyti4/public_html/login.php on line 9
+[10-Mar-2015 17:29:07 America/Chicago] PHP Parse error:  syntax error, unexpected '") or die ("' (T_CONSTANT_ENCAPSED_STRING) in /home/sonnyti4/public_html/login.php on line 37
+[10-Mar-2015 17:29:48 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'sonnyti3_1'@'localhost' (using password: YES)' in /home/sonnyti4/public_html/login.php:9
+Stack trace:
+#0 /home/sonnyti4/public_html/login.php(9): PDO->__construct('mysql:host=loca...', 'sonnyti3_1', 'Mofos123', Array)
+#1 {main}
+  thrown in /home/sonnyti4/public_html/login.php on line 9
+[10-Mar-2015 17:45:37 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/login.php on line 28
+[10-Mar-2015 18:02:03 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE) in /home/sonnyti4/public_html/login.php on line 21
+[10-Mar-2015 18:03:03 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE) in /home/sonnyti4/public_html/login.php on line 21
+[14-Mar-2015 08:38:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/sonnyti4/public_html/login.php on line 55
+[14-Mar-2015 08:38:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/sonnyti4/public_html/login.php on line 55
+[16-Mar-2015 09:37:10 America/Chicago] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER) in /home/sonnyti4/public_html/JobListings.php on line 21
+[16-Mar-2015 09:37:45 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/sonnyti4/public_html/JobListings.php on line 122
+[16-Mar-2015 10:20:06 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/sonnyti4/public_html/JobListings.php on line 140
+[16-Mar-2015 10:20:34 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sonnyti4/public_html/JobListings.php on line 127
+[16-Mar-2015 10:42:42 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/JobListings.php on line 28
+[16-Mar-2015 10:46:50 America/Chicago] PHP Parse error:  syntax error, unexpected '$listings' (T_VARIABLE) in /home/sonnyti4/public_html/JobListings.php on line 27
+[16-Mar-2015 10:50:21 America/Chicago] PHP Parse error:  syntax error, unexpected '$listings' (T_VARIABLE) in /home/sonnyti4/public_html/JobListings.php on line 30
+[16-Mar-2015 10:50:22 America/Chicago] PHP Parse error:  syntax error, unexpected '$listings' (T_VARIABLE) in /home/sonnyti4/public_html/JobListings.php on line 30
+[16-Mar-2015 10:51:29 America/Chicago] PHP Parse error:  syntax error, unexpected '$listings' (T_VARIABLE) in /home/sonnyti4/public_html/JobListings.php on line 27
+[16-Mar-2015 10:52:49 America/Chicago] PHP Parse error:  syntax error, unexpected '$listings' (T_VARIABLE) in /home/sonnyti4/public_html/JobListings.php on line 27
+[16-Mar-2015 10:52:49 America/Chicago] PHP Parse error:  syntax error, unexpected '$listings' (T_VARIABLE) in /home/sonnyti4/public_html/JobListings.php on line 27
+[16-Mar-2015 10:52:50 America/Chicago] PHP Parse error:  syntax error, unexpected '$listings' (T_VARIABLE) in /home/sonnyti4/public_html/JobListings.php on line 27
+[16-Mar-2015 10:52:50 America/Chicago] PHP Parse error:  syntax error, unexpected '$listings' (T_VARIABLE) in /home/sonnyti4/public_html/JobListings.php on line 27
+[16-Mar-2015 10:53:21 America/Chicago] PHP Parse error:  syntax error, unexpected '$listings' (T_VARIABLE) in /home/sonnyti4/public_html/JobListings.php on line 31
+[16-Mar-2015 10:53:44 America/Chicago] PHP Parse error:  syntax error, unexpected '$jdes' (T_VARIABLE) in /home/sonnyti4/public_html/JobListings.php on line 32
+[16-Mar-2015 10:59:06 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/sessfun.php on line 27
+[16-Mar-2015 11:04:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/sonnyti4/public_html/JobListings.php on line 23
+[16-Mar-2015 11:16:13 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/sessfun.php on line 23
+[16-Mar-2015 11:16:47 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/sessfun.php on line 23
+[16-Mar-2015 11:23:47 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/sessfun.php on line 23
+[16-Mar-2015 11:26:21 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 35
+[16-Mar-2015 11:26:51 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 35
+[16-Mar-2015 11:30:33 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:34:20 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:34:21 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:36:15 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:36:15 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:36:16 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:36:16 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:36:16 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:36:16 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:36:17 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:36:17 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:39:02 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:39:03 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:39:03 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:39:04 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:39:04 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 41
+[16-Mar-2015 11:51:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'protected' (T_PROTECTED) in /home/sonnyti4/public_html/sessfun.php on line 34
+[16-Mar-2015 11:52:35 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 43
+[16-Mar-2015 11:53:01 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 43
+[16-Mar-2015 11:53:02 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 43
+[16-Mar-2015 11:53:03 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 43
+[16-Mar-2015 11:53:26 America/Chicago] PHP Fatal error:  Call to a member function execute() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 44
+[16-Mar-2015 11:53:26 America/Chicago] PHP Fatal error:  Call to a member function execute() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 44
+[16-Mar-2015 11:53:26 America/Chicago] PHP Fatal error:  Call to a member function execute() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 44
+[16-Mar-2015 11:57:02 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 43
+[16-Mar-2015 11:57:03 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 43
+[16-Mar-2015 11:57:22 America/Chicago] PHP Fatal error:  Call to a member function execute() on a non-object in /home/sonnyti4/public_html/sessfun.php on line 44
+[16-Mar-2015 12:06:52 America/Chicago] PHP Parse error:  syntax error, unexpected ''<br>'' (T_CONSTANT_ENCAPSED_STRING) in /home/sonnyti4/public_html/sessfun.php on line 45
+[16-Mar-2015 12:07:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/sonnyti4/public_html/sessfun.php on line 45
+[16-Mar-2015 12:11:02 America/Chicago] PHP Fatal error:  Class 'jobListing' not found in /home/sonnyti4/public_html/JobListings.php on line 133
+[16-Mar-2015 12:11:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/sonnyti4/public_html/JobListings.php on line 28
+[16-Mar-2015 12:12:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/sonnyti4/public_html/JobListings.php on line 28
+[16-Mar-2015 12:12:33 America/Chicago] PHP Fatal error:  Class 'jobListing' not found in /home/sonnyti4/public_html/JobListings.php on line 133
+[16-Mar-2015 16:49:59 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/sonnyti4/public_html/JobListings.php on line 147
+[16-Mar-2015 23:36:37 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/sonnyti4/public_html/Applications.php on line 113
+[16-Mar-2015 23:39:06 America/Chicago] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home/sonnyti4/public_html/Applications.php on line 113
+[16-Mar-2015 23:40:25 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/sonnyti4/public_html/Applications.php on line 113
+[16-Mar-2015 23:50:52 America/Chicago] PHP Parse error:  syntax error, unexpected '$kuid' (T_VARIABLE), expecting function (T_FUNCTION) in /home/sonnyti4/public_html/Applications.php on line 120
+[17-Mar-2015 05:40:35 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/sonnyti4/public_html/inbox.php on line 3
+[17-Mar-2015 05:41:07 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/sonnyti4/public_html/inbox.php on line 3
+[17-Mar-2015 05:41:28 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/sonnyti4/public_html/inbox.php on line 3
+[17-Mar-2015 05:41:57 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/sonnyti4/public_html/inbox.php on line 135
+[17-Mar-2015 05:42:51 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/sonnyti4/public_html/inbox.php on line 133
+[17-Mar-2015 05:43:24 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/sonnyti4/public_html/inbox.php on line 133
+[17-Mar-2015 05:43:30 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/sonnyti4/public_html/inbox.php on line 133
+[17-Mar-2015 05:43:37 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/sonnyti4/public_html/inbox.php on line 133
+[17-Mar-2015 05:45:14 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/sonnyti4/public_html/inbox.php on line 133
+[17-Mar-2015 05:49:26 America/Chicago] PHP Fatal error:  Function name must be a string in /home/sonnyti4/public_html/inbox.php on line 119
+[17-Mar-2015 05:50:44 America/Chicago] PHP Fatal error:  Class 'PDS' not found in /home/sonnyti4/public_html/inbox.php on line 120
+[17-Mar-2015 06:16:35 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/sonnyti4/public_html/inbox.php on line 116
+[17-Mar-2015 06:49:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/sonnyti4/public_html/mailsender.php on line 18
+[17-Mar-2015 06:58:31 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/sonnyti4/public_html/inbox.php on line 156
+[17-Mar-2015 06:59:00 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/sonnyti4/public_html/inbox.php on line 156
+[17-Mar-2015 06:59:00 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/sonnyti4/public_html/inbox.php on line 156
+[17-Mar-2015 07:06:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'msgid' (T_STRING), expecting ',' or ';' in /home/sonnyti4/public_html/inbox.php on line 155
+[17-Mar-2015 07:06:36 America/Chicago] PHP Parse error:  syntax error, unexpected 'msgid' (T_STRING), expecting ',' or ';' in /home/sonnyti4/public_html/inbox.php on line 155
+[17-Mar-2015 07:06:37 America/Chicago] PHP Parse error:  syntax error, unexpected 'msgid' (T_STRING), expecting ',' or ';' in /home/sonnyti4/public_html/inbox.php on line 155
+[17-Mar-2015 07:06:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'msgid' (T_STRING), expecting ',' or ';' in /home/sonnyti4/public_html/inbox.php on line 155
+[17-Mar-2015 07:06:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'msgid' (T_STRING), expecting ',' or ';' in /home/sonnyti4/public_html/inbox.php on line 155
+[17-Mar-2015 07:07:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'msgid' (T_STRING), expecting ',' or ';' in /home/sonnyti4/public_html/inbox.php on line 156
+[17-Mar-2015 07:07:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'msgid' (T_STRING), expecting ',' or ';' in /home/sonnyti4/public_html/inbox.php on line 156
+[17-Mar-2015 07:07:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'msgid' (T_STRING), expecting ',' or ';' in /home/sonnyti4/public_html/inbox.php on line 155
+[17-Mar-2015 07:11:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'msgid' (T_STRING), expecting ',' or ';' in /home/sonnyti4/public_html/inbox.php on line 155
+[17-Mar-2015 07:16:39 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/sonnyti4/public_html/inbox.php on line 160
+[17-Mar-2015 07:40:33 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sonnyti4/public_html/studentcv.php on line 125
+[17-Mar-2015 07:58:57 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sonnyti4/public_html/viewallcvs.php on line 125
+[17-Mar-2015 08:40:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'Error' (T_STRING), expecting ',' or ';' in /home/sonnyti4/public_html/registerlogic.php on line 31
+[17-Mar-2015 08:42:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/sonnyti4/public_html/registerlogic.php on line 30
+[17-Mar-2015 09:25:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sonnyti4/public_html/viewallcvs.php on line 125
+[17-Mar-2015 10:18:23 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/cv-upload.php on line 11
+[17-Mar-2015 10:18:23 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/cv-upload.php on line 12
+[17-Mar-2015 10:18:23 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/cv-upload.php on line 13
+[17-Mar-2015 10:18:23 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/cv-upload.php on line 14
+[17-Mar-2015 10:18:23 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/cv-upload.php on line 15
+[17-Mar-2015 10:18:23 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/cv-upload.php on line 16
+[17-Mar-2015 10:18:23 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/cv-upload.php on line 17
+[17-Mar-2015 10:18:23 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/cv-upload.php on line 19
+[17-Mar-2015 10:18:23 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/cv-upload.php on line 20
+[17-Mar-2015 10:18:23 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/cv-upload.php on line 21
+[17-Mar-2015 10:18:56 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/mailsender.php on line 13
+[17-Mar-2015 10:18:56 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/mailsender.php on line 14
+[17-Mar-2015 10:18:56 America/Chicago] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sonnyti4/public_html/mailsender.php on line 15
+[17-Mar-2015 10:43:48 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/sonnyti4/public_html/JobListings.php on line 152
+[17-Mar-2015 10:43:51 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/sonnyti4/public_html/JobListings.php on line 152
+[17-Mar-2015 11:31:50 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 5
+[17-Mar-2015 11:32:19 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 6
+[17-Mar-2015 11:32:20 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 6
+[17-Mar-2015 11:32:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 9
+[17-Mar-2015 11:33:01 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 10
+[17-Mar-2015 11:33:28 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 9
+[17-Mar-2015 11:33:32 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 9
+[17-Mar-2015 11:33:33 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 9
+[17-Mar-2015 11:34:15 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 9
+[17-Mar-2015 11:34:17 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 9
+[17-Mar-2015 11:34:45 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 9
+[17-Mar-2015 11:34:45 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 9
+[17-Mar-2015 11:34:47 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 9
+[17-Mar-2015 11:34:56 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sonnyti4/public_html/sendfeedback.php on line 10
