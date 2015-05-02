@@ -97,89 +97,8 @@ header
     top:100px;
     }
 
-.please
-{
-    position: relative;
-    right:-35.5%;
-    bottom: -120px;
-}
-
-.list1  {
-  
-    width: 100%;
-    padding: 0;
-    margin-right: 40px;
-    list-style-type: none;
-    color: white;
-   
-    bottom: -100px;
-    right: -680px;
-    
-    
-    margin-left: -150px;
-   font-size: 16px;
-}
-
-.list1 a {
-     font-size: 20px;
-   
-   
-    float: left;
-    width: 10em;
-    text-decoration: none;
-    padding: 0.2em 0.6em;
-    border-right: 1px solid;
-     border-style: solid;
-    border-color: white;
-    background-color: #4682b4;
-    color: white;
-
-    
-}
-
-.list1 a:hover {
-    
-    background-color: #4682b4;
-    color: white;
-}
 
 
-.list2 
-{
-    position: relative;
-    left: 25.60%;
-    top: 165px;
-    
-    margin-right:1200px;
-    width: auto;
-
-}
-.list2 ul
-{
-list-style-type: none;
-    margin-left: -150px;
-    bottom: -100px;
-}
-
-.list2 li
- {
-    font-size: 20px;
-}
-
-
-.list2 a {
-     
-    width: 100px;
-    display: block;
-    padding: 0.1em 0.4em;
-    border-right: 1px solid;
-    border-bottom: 0.5px solid;
-    border-style: solid;
-    border-color: white;
-    background-color: #4682b4;
-    color: white;
-    width: 150px;
-}
 
 .box1
 {
@@ -195,17 +114,7 @@ list-style-type: none;
     
      bottom: -50px;
 }
-.list3
-{
 
-position: relative;
-top: 30%;
-margin-right: 250px;
-
-
-font-size: 20px;
-
-}
 
 .heading 
 {
@@ -248,4 +157,51 @@ p3
     width: 180px;
     
 
+}
+
+
+ul {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    ul li {
+    display: block;
+    
+    float: left;
+}
+li ul {
+    display: none;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    background: #1e7c9a;
+    margin-left:1px;
+    white-space: nowrap;
+}
+ul li a:hover { 
+    background: #BBBBBB;
+}
+li:hover ul {
+    display: block;
+    position: absolute;
+    left:0px;
+
+}
+li:hover li {
+    float: left;
+    font-size: 11px;
+  
+}
+li:hover a { 
+    background: #3b3b3b; 
+}
+li:hover li a:hover {
+    background: #CCC;
 }

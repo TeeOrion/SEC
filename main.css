@@ -5,9 +5,6 @@
 }
 
 
-
-
-
 body
 {
 	background-image:url("background.jpg");
@@ -121,4 +118,103 @@ font-family: "Arial Black", Gadget, sans-serif;
 }
 
 
+/* Student homepage */
+
+
+.StudentTittle
+{
+	font-family: "Arial Black", Gadget, sans-serif;
+	
+	position: relative;
+	left:30%;
+	top:-60%;
+	margin-top: -8%;
+	margin-left: 10%;
+
+	
+	
+}
+
+
+.mainList
+{
+
+margin-top:-0.8%;
+
+margin-left: 41.9%;
+width:600px;
+
+}
+ul {
+
+  text-align: left;
+  display: inline;
+  margin: 2px;
+  padding: 15px 4px 17px 0;
+opacity:1;
+ 
+  
+}
+ul li {
+   font-size: 25px;
+ font-family: "Arial" ,  sans-serif;
+ 
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 27px;
+  background: white;
+  cursor: pointer;
+opacity:1;
+ 
+}
+ul li:hover {
+  background:#E0E0E0;
+ 
+ opacity:1;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 170px;
+
+  box-shadow: none;
+  display: none;
+  opacity: 1;
+  visibility: hidden;
+
+}
+ul li ul li { 
+  background:#E0E0E0; 
+  display: block; 
+opacity:1;
+  
+}
+ul li ul li:hover { background:#E0E0E0; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  opacity:1;
+   
+}
+
+.MainBox
+{
+	
+	position: relative;
+	border: 4px solid #4682b4;
+	height: 400px;
+	width: 900px;
+	
+	right: 0%;
+	left: 32.1%;
+	margin-top:-1%
+
+
+
+  
+}
 
