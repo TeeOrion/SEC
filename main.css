@@ -1,9 +1,124 @@
+*
+{
 
 
-/* index page */
+}
 
 
 
 
 
-/* registration page */ 
+body
+{
+	background-image:url("background.jpg");
+	
+}
+
+
+/* Index page (login page) css */
+
+
+header
+{
+	position: fixed;
+	
+
+}
+
+.KingstonLogo
+{
+position: relative;
+
+}
+
+
+.IndexTittle
+{
+	font-family: "Arial Black", Gadget, sans-serif;
+	
+	position: relative;
+	left:10%;
+	top:%;
+	margin-top: -8%;
+	margin-left: 10%;
+
+	
+	
+}
+
+.IndexLogoTittle
+{
+
+
+	position: relative;
+
+	height: 145px;
+	width: 700px;
+	margin-top: 9%;
+	right: 0%;
+	left: 32%;
+
+}
+
+
+
+
+
+.loginInformationBox
+{
+	
+	position: relative;
+	border: 4px solid #4682b4;
+	height: 360px;
+	width: 700px;
+	
+	right: 0%;
+	left: 32.1%;
+	margin-top:0%
+
+
+
+  
+}
+
+.user-form
+{
+	
+	
+	display: relative;
+	width: 380px;
+	height: 200px;
+	
+	
+	margin-top: 8%;
+	margin-left: 4%;
+	
+	color: #000000;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+}
+.register {
+	
+	position:relative;
+	color: #4682b4;
+	width: 200px;
+	height: 60px;
+	position: relative;
+
+	left:40%;
+	margin-top: -6.6%;
+	
+	
+	
+	
+}
+
+.lo{
+height:35px;
+color:black;
+font-size: 12.5px;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+
