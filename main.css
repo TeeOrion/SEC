@@ -71,8 +71,7 @@ position: relative;
 	
 	right: 0%;
 	left: 32.1%;
-	margin-top:0%
-
+	margin-top:0%;
 
 
   
@@ -110,67 +109,94 @@ position: relative;
 	
 }
 
-.lo{
-height:35px;
-color:black;
-font-size: 12.5px;
-font-family: "Arial Black", Gadget, sans-serif;
+
+
+/* all pages basic layout of the lists and box */
+
+
+.MainLogoTittle
+{
+
+
+    margin-top: 0.2%;
+	position: relative;
+	margin-right:0%;
+	margin-top:8%;
+	bottom:40%;
+	right: 0%;
+	left: 22.3%;
+	width:800px;
 }
 
 
-/* Student homepage */
+.KingstonLogoMain
+{
+margin-right:0%;
+position: relative;
+margin-bottom:-2%;
+left:0%;
 
+}
 
-.StudentTittle
+.Tittle
 {
 	font-family: "Arial Black", Gadget, sans-serif;
 	
 	position: relative;
-	left:30%;
-	top:-60%;
-	margin-top: -8%;
+	left:40%;
+	top:50%;
+	margin-top: -14.5%;
 	margin-left: 10%;
-
+margin-right:0%;
 	
 	
 }
 
-
+/* main list(dropdown list) position */
 .mainList
 {
-
-margin-top:-0.8%;
-
-margin-left: 41.9%;
-width:600px;
+position:relative;
+margin-top:0%;
+top:10%;
+margin-left: 31.9%;
+width:650px;
+ z-index: 2;
+margin-right:0%;
 
 }
-ul {
+
+/* the settings for the main words for dropdown list profile, job listings...*/
+
+ul{
 
   text-align: left;
   display: inline;
-  margin: 2px;
+  margin: 20px;
   padding: 15px 4px 17px 0;
-opacity:1;
- 
+	opacity:1;
+   z-index: 2;
+   
+   
   
 }
-ul li {
+ul li{
    font-size: 25px;
  font-family: "Arial" ,  sans-serif;
  
   display: inline-block;
-  margin-right: -4px;
+  margin-right: 11px;
   position: relative;
-  padding: 15px 27px;
+  padding: 5px 27px;
   background: white;
   cursor: pointer;
-opacity:1;
+  opacity:1;
+   z-index: 2;
  
 }
+/* settings for all the dropdown options */
 ul li:hover {
   background:#E0E0E0;
- 
+ z-index: 2;
  opacity:1;
 }
 ul li ul {
@@ -178,8 +204,8 @@ ul li ul {
   position: absolute;
   top: 48px;
   left: 0;
-  width: 170px;
-
+  width: 180px;
+   z-index: 2;
   box-shadow: none;
   display: none;
   opacity: 1;
@@ -190,7 +216,7 @@ ul li ul li {
   background:#E0E0E0; 
   display: block; 
 opacity:1;
-  
+  z-index: 2;
 }
 ul li ul li:hover { background:#E0E0E0; }
 ul li:hover ul {
@@ -198,23 +224,63 @@ ul li:hover ul {
   opacity: 1;
   visibility: visible;
   opacity:1;
-   
+   z-index: 2;
 }
 
+/* css for the side list */
+
+.list2 ul
+{
+ font-family: "Arial" ,  sans-serif;
+text-align: left;
+left: 10%;
+opacity:1;
+z-index: 2;
+color: Black;
+}
+
+
+.list2 li {
+border: 2px solid #E0E0E0;
+	width:175px;
+   font-size:20px;
+  display: block;
+  margin-right: -4px;
+  position: relative;
+left: 22.5%;
+  background: white;
+  cursor: pointer;
+  opacity:1;
+   z-index: 2;
+ 
+}
+
+/*   the blue box that we all love */
 .MainBox
 {
-	
+
+	margin-right:0%;
 	position: relative;
 	border: 4px solid #4682b4;
 	height: 400px;
-	width: 900px;
+	width: 750px;
 	
 	right: 0%;
 	left: 32.1%;
-	margin-top:-1%
-
-
-
-  
+	
+	margin-top:-8%;
+      z-index:1;
 }
 
+
+.lo{
+margin-right:0%;
+ position: relative;
+ margin-bottom: -30%;
+   
+  background-color:#4682b4;
+  color: white;
+  
+ left:75%;
+ bottom:0%;
+  }
