@@ -31,7 +31,7 @@
   <a href="staff.php""><img src="kingston.jpg" height="190" width="190"  >
 </div>
 
-<div class="StaffTittle">
+<div class="Tittle">
 	<h1>Send Mail </h1></div>
 </form>
 
@@ -74,13 +74,13 @@
 
 <div class="list2">
 	<ul>
-		<li><p3><strong>CV SUPPORT</strong></p3></li>
+		<li><p3><strong>Quick Links:</strong></p3></li>
 		<li><a href="inbox.php">Inbox</a></li>
-		<li><a href="StaffSupport.php">Contact SEC</a></li>
+		<li><a href="StaffSupport.php">Contact IT</a></li>
 	</ul>
 </div>
 <form class="MainBox">
-</form>
+
 <div class="box1">
 <div style="height:435px;width:990px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;"> 
 
@@ -99,12 +99,13 @@
   </ul>
 </form>
 </div>
+</form>
 
 </div>
 <div class="heading">
 <p><strong></strong></p>
 </div>
-</div>
+
 </body>
 
 </html>

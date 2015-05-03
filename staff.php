@@ -1,4 +1,12 @@
+<?php
+session_start();
+if( ! $_SESSION['LOGGED_IN'] )
+{ header('Location: index.php');}
+else{ if ($_SESSION['type'] == "student") {
+	header('Location: student.php');
+}}
 
+?>
 <!DOCTYPE html>
 
 <html>
@@ -10,7 +18,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
     <link href="main.css" rel="stylesheet" type="text/css">
-
+	<script src="JavaScript.js"></script>
     <title>SEC Staff</title>
 
     <!-- Bootstrap core CSS -->
@@ -24,18 +32,29 @@
   </head>
 
   <body>
+<div id="log">
 <button class="lo" onClick="location.href='logout.php'">
     Log Out 
 </button> 
-
-<form class ="IndexLogoTittle">
-<div class= "KingstonLogo">
-  <a href="staff.php"><img src="kingston.jpg" height="190" width="190"  >
 </div>
 
-<div class="StaffTittle">
+
+
+<form class ="MainLogoTittle">
+<div class= "KingstonLogoMain">
+<a href="staff.php"><img src="kingston.jpg" height="190" width="190"></a>
+</div>
+
+<div class="Tittle">
 	<h1>Staff Home </h1></div>
 </form>
+
+
+
+
+
+
+
 
 
  <div class="mainList">
@@ -73,31 +92,33 @@
 <li><a href="viewallcvs.php"> View CVs  </a></li>
 </ul>
 </li>
+</ul>
 </div>
-<div class="list2">
-	<ul>
-		<li><p3><strong>CONTACT :</strong></p3></li>
-		<li><a href="inbox.php">Contact Student</a></li>
-		<li><a href="StaffSupport.php">Contact IT Support</a></li>
-	</ul>
-</div>
+<ul class="list2">
+	
+		<li><p3><strong> Quick Links   </strong></p3></li>
+		<li><a href="inbox.php">Inbox</a></li>
+		<li><a href="StaffSupport.php">Contact IT:</a></li>
+	
+</ul>
+
+
+
 <form class="MainBox">
-</form>
-<div class="box1"> 
-
-
-<div class="list3">
-	<ul>
-		<li><a href="inbox.php">View Inbox</a></li>
-		<li><a href="StaffNewJob.php">Add New Job Spec</a></li>
-		<li><a href="RemoveJob.php">Remove Job Spec</a></li>
-   	<li><a href="UploadCVStaff.php">Upload CV Template</a></li>
-   	<li><a href="sendfeedback.php">Send Feedback</a></li>
-	</ul>
-</div>
-
 <div class="heading">
-<p><b>Welcome <?php echo $_SESSION['name']; ?><b></p>
+
+
+<button type="button" onclick="Scroll()">Try it</button>
+
+<p><b>Welcome user: <?php echo $_SESSION['name']; ?><b></p>
+
+
+
+
+
+</form>
+
+
 </div>
 </div>
 </div>

@@ -49,7 +49,7 @@ $conn = new PDO($dsn, $dbuser, $dbpass, $options); ?>
   <a href="staff.php"><img src="kingston.jpg" height="190" width="190"  >
 </div>
 
-<div class="StaffTittle">
+<div class="Tittle">
 	<h1>Current Applications </h1></div>
 </form>
 
@@ -91,13 +91,11 @@ $conn = new PDO($dsn, $dbuser, $dbpass, $options); ?>
 </li>
 </div>
 <form class="MainBox">
-</form>
-
 <div class="list2">
 	<ul>
-		<li><p3><strong>CONTACT :</strong></p3></li>
-		<li><a href="inbox.php">Contact Student</a></li>
-		<li><a href="StaffSupport.php">Contact IT Support</a></li>
+		<li><p3><strong>Quick Links:</strong></p3></li>
+		<li><a href="sendmail.php">Contact Student</a></li>
+		<li><a href="StaffSupport.php">Contact IT </a></li>
 	</ul>
 </div>
 
@@ -136,11 +134,11 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)) !== false) {
     echo '<br>';
 } ?>
 </div>
-
 <div class="heading">
 <p><strong></strong></p>
 </div>
 </div>
+</form>
 </body>
 
 </html>

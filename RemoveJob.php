@@ -38,7 +38,7 @@ if($_SESSION['LOGGED_IN'] == true)
   <a href="staff.php"><img src="kingston.jpg" height="190" width="190"  >
 </div>
 
-<div class="StaffTittle">
+<div class="Tittle">
 	<h1>Remove CV</h1></div>
 </form>
 
@@ -83,28 +83,22 @@ if($_SESSION['LOGGED_IN'] == true)
 
 <div class="list2">
 	<ul>
-		<li><p3><strong>Contact :</strong></p3></li>
-		<li><a href="asd">Inbox</a></li>
-		<li><a href="StaffSupport.php">Contact Support</a></li>
+		<li><p3><strong>Quick Links:</strong></p3></li>
+		<li><a href="inbox.php">Inbox</a></li>
+		<li><a href="StaffSupport.php">Contact IT</a></li>
 	</ul>
 </div>
 
 <form class="MainBox">
-</form>
-
-<div class="box1">
 <div class="question">
-<p1> Remove a job spec file from system?</p1>
+<p1> Remove a Job Specification file from the system?</p1>
 </div>
-
-
 
 <form method="post" action="file-upload.html" name="submit" enctype="multipart/form-data">
   <input type="file" name="fileField"><br /><br />
   <input type="submit" name="submit" value="Delete">
 </form>
-</div>
-
+</form>
 </body>
 
 </html>

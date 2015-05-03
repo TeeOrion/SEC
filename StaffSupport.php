@@ -21,29 +21,31 @@ else{
     <link rel="icon" href="../../favicon.ico">
     <link href="main.css" rel="stylesheet" type="text/css">
 
-    <title>Get technical support</title>
+    <title>Get IT support</title>
 
   </head>
 
   <body>
-
+<div id="log">
 <button class="lo" onClick="location.href='logout.php'">
     Log Out 
 </button> 
-
-<form class ="IndexLogoTittle">
-<div class= "KingstonLogo">
-  <a href="staff.php"><img src="kingston.jpg" height="190" width="190"  >
 </div>
 
-<div class="StaffTittle">
-	<h1>Support</h1></div>
+<form class ="MainLogoTittle">
+<div class= "KingstonLogoMain">
+  <a href="staff.php"><img src="kingston.jpg" height="190" width="190" ></a>
+</div>
+
+<div class="Tittle">
+	<h1>Support</h1>
+	</div>
 </form>
 
 
  <div class="mainList">
  <ul id="menu">
-<li><a href="ViewStudents.php">Students</a>
+<li><a href="#">Students</a>
 <ul>
 <li><a href="ViewStudents.php"> View Students </a></li>
 <li><a href="ViewStudentsAfterSearch.php"> Search Students </a></li>
@@ -76,17 +78,19 @@ else{
 </li>
 </div>
 
-<div class="list2">
-	<ul>
-		<li><p3><strong>CONTACT :</strong></p3></li>
-		<li><a href="inbox.php">Contact Student</a></li>
-		<li><a href="StaffSupport.php">Contact IT support</a></li>
-	</ul>
-</div>
 
-<div class="box1"> 
+
+<ul class="list2">
+	
+		<li><p3><strong> Quick Links   </strong></p3></li>
+		<li><a href="inbox.php">Inbox</a></li>
+		<li><a href="StaffSupport.php">Contact IT:</a></li>
+	
+</ul>
+
+
+
 <form class="MainBox">
-</form>
 
 <div class="list3">
 	<ul>
@@ -100,7 +104,7 @@ else{
 <div class="heading">
 <p><strong>Contact Details</strong></p>
 </div>
-</div>
+</form>
 </body>
 
 </html>

@@ -1,4 +1,12 @@
+<?php
+session_start();
+if( ! $_SESSION['LOGGED_IN'] )
+{ header('Location: index.php');}
+else{ if ($_SESSION['type'] == "student") {
+	header('Location: student.php');
+}}
 
+?>
 <!DOCTYPE html>
 
 <html>
@@ -85,11 +93,11 @@
 </ul>
 </div>
 <ul class="list2">
-	<ul>
+	
 		<li><p3><strong> Quick Links   </strong></p3></li>
 		<li><a href="inbox.php">Inbox</a></li>
 		<li><a href="StaffSupport.php">Contact IT:</a></li>
-	</ul>
+	
 </ul>
 
 

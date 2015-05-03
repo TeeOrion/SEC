@@ -42,7 +42,7 @@ else{
   <a href="staff.php"><img src="kingston.jpg" height="190" width="190"  >
 </div>
 
-<div class="StaffTittle">
+<div class="Tittle">
 	<h1>Upload CV Template</h1></div>
 </form>
 
@@ -81,13 +81,12 @@ else{
 </li>
 </div>
 <form class="MainBox">
-</form>
 
 <div class="list2">
 	<ul>
-		<li><p3><strong>Contact :</strong></p3></li>
-		<li><a href="asd">Inbox</a></li>
-		<li><a href="StaffSupport.html">Contact SEC</a></li>
+		<li><p3><strong>Quick Links:</strong></p3></li>
+		<li><a href="inbox.php">Inbox</a></li>
+		<li><a href="StaffSupport.html">Contact IT</a></li>
 	</ul>
 </div>
 
@@ -102,6 +101,7 @@ else{
   <input type="submit" name="submit" value="Upload">
 </form>
 </div>
+</form>
 
 </body>
 
